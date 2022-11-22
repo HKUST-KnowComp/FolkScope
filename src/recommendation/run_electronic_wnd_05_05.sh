@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python run_WnD.py -d Electronics -r 05_05 -dr 0.6 -b 4096
