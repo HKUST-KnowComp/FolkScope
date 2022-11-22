@@ -59,9 +59,11 @@ class PromptGenerator():
                 print("loading the model takes {:.2f} seconds".format(time.time()-cur))
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(self.model_name)
-                if self.num_gpus != -1:
+                if config.num_gpus > 0:
                     self.model.cuda()
         elif self.generation_type == "api":
+            ## support opt175b api generation
+            ## place host url as follows
             self.host_url = ""
 
     def _generation(self, inputs):

@@ -8,6 +8,7 @@ CUDA_VISIBLE_DEVICES=0,1 python src/generator/generation.py \
   --model_name_or_path /home/data/pretrained-lm/opt-30b \
   --model_type opt30b \
   --max_seq_length 80 \
+  --behavior_type 'cobuy' \
   --generation_type "inference" \
   --prompt_type "prefix" \
   --max_generation_length 100 \
