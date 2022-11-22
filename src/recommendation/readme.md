@@ -14,7 +14,7 @@ We release the aligned knowledge graph with different plausiblity and typicality
 python preprocess.py
 ```
 
-This python script will generate six json files containing the graph and textual features for the eventualities and entities. Then we use the following scripts to generate the modified transE features for each paper, to capture both structural and textual features. 
+This python script will generate six json files containing the graph and textual features for the eventualities and entities. Then we use the following scripts to generate the modified transE features to capture both structural and textual features. 
 
 ```
 bash run_modified_transE.sh
