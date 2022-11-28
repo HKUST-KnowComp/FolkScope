@@ -6,7 +6,7 @@ Sourcecode and datasets for the paper "FolkScope: Intention Knowledge Graph Cons
 
 ## Datasets
 
-We release product metadata, the annotated training datasets and the whole poplulated generations with both plausibility and typicality scores in the [shared folders](https://hkustconnect-my.sharepoint.com/:f:/g/personal/cyuaq_connect_ust_hk/EhLWuDJtP5pPgPH27i5Oq1oBxfc0wDIqFxpvJhdPcdt9hA?e=6JROlg).
+We release product metadata, the annotated training datasets and the whole poplulated generations with both plausibility and typicality scores, and recommendation data in the [shared folders](https://hkustconnect-my.sharepoint.com/:f:/g/personal/cyuaq_connect_ust_hk/EhLWuDJtP5pPgPH27i5Oq1oBxfc0wDIqFxpvJhdPcdt9hA?e=6JROlg).
 
 
 ## Implementation
