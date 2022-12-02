@@ -122,7 +122,7 @@ if __name__ == "__main__":
     os.makedirs(args.processed_dir_name, exist_ok=True)
 
     df = pd.read_csv(
-        args.csv_file_name, encoding="latin-1", usecols=["item_a_id", "relation", "item_b_id", "assertion"]
+        args.csv_file_name, usecols=["item_a_id", "relation", "item_b_id", "assertion"]
     )
     data = defaultdict(list)
     for row in df.itertuples():

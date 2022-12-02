@@ -8,12 +8,21 @@ from multiprocessing import Pool
 from collections import defaultdict, Counter
 from utils import *
 
-parsemis_path = "parsemis/bin"
+
+parsemis_path = os.path.join(os.path.dirname(__file__), "parsemis/bin")
 
 
 def mine_frequent_patterns(
     class_path, input_file, output_file, min_node, max_node, min_edge, max_edge, min_freq, max_freq
 ):
+    if not os.path.exists(class_path):
+        try:
+            pwd = os.path.dirname(__file__)
+            os.system("unzip -o {pwd}/parsemis.zip -d {pwd}parsemis".format(pwd=pwd))
+        except:
+            print("Failed to unzip parsemis.zip")
+            exit(1)
+
     class_path = class_path.replace("\\", "/")
     input_file = input_file.replace("\\", "/")
     output_file = output_file.replace("\\", "/")

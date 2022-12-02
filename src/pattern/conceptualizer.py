@@ -690,7 +690,7 @@ def conceptualize_file(input_file, output_file, conceptualizer, start_index=0):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_file", type=str, default="parse/capableOf_elec.jsonl")
+    parser.add_argument("--data_file", type=str, default="extraction/capableOf_elec.jsonl")
     parser.add_argument("--relation_type", type=str, default="capableOf")
     parser.add_argument("--output_file", type=str, default="conceptualization/capableOf_elec.jsonl")
     parser.add_argument("--probase_path", type=str, default="probase/data-concept-instance-relations.txt")
@@ -700,4 +700,4 @@ if __name__ == "__main__":
 
     conceptulizer = ProbaseConceptualizer(args.probase_path)
 
-    conceptualize_file(args.data_file, args.output_file, conceptulizer, len(TEMPLATE[args.relation_type][1]))
+    conceptualize_file(args.data_file, args.output_file, conceptulizer, len(TEMPLATES[args.relation_type][1]))

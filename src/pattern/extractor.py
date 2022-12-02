@@ -509,7 +509,7 @@ class PatternMatchEventualityExtractor(BaseEventualityExtractor):
 
 if __name__ == "__main__":
     pm_event_extractor = PatternMatchEventualityExtractor(
-        corenlp_path="",
+        corenlp_path="corenlp-4.4.0",
         corenlp_port=9000,
         annotators=list(ANNOTATORS),
         pattern_file="pattern/v0.1.1/freq.txt",

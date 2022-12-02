@@ -19,10 +19,13 @@ We release product metadata, the annotated training datasets and the whole poplu
 * sklearn
 * evalaute
 * datasets
+* tqdm
 * sentencepiece
 * accelerate==0.9.0
 * torch==1.10.1+cu111
 * transformers==4.20.0
+* python-igraph == 0.9.11
+* stanfordnlp==0.2.0
 
 
 ### 1. Prompting Generation
@@ -35,6 +38,13 @@ bash scripts/run_generation.sh
 ```
 bash scripts/run_training.sh
 bash scripts/run_inference.sh
+```
+
+### 3. Knowledge Graph Construction
+```
+bash scripts/run_mining.sh
+bash scripts/run_match.sh
+bash scripts/run_conceptualization.sh
 ```
 
 ## Citation
