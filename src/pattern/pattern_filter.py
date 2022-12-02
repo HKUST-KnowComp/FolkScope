@@ -26,7 +26,7 @@ def mine_frequent_patterns(
     class_path = class_path.replace("\\", "/")
     input_file = input_file.replace("\\", "/")
     output_file = output_file.replace("\\", "/")
-    cmd = f"java -Xmx8g -cp {class_path} de.parsemis.Miner --graphFile={input_file} --outputFile={output_file} --algorithm=gspan --threads=4 --minimumEdgeCount={min_edge} --maximumEdgeCount={max_edge} --minimumNodeCount={min_node} --maximumNodeCount={max_node} --minimumFrequency={min_freq} --maximumFrequency={max_freq}"
+    cmd = f"java -Xmx16g -cp {class_path} de.parsemis.Miner --graphFile={input_file} --outputFile={output_file} --algorithm=gspan --threads=4 --minimumEdgeCount={min_edge} --maximumEdgeCount={max_edge} --minimumNodeCount={min_node} --maximumNodeCount={max_node} --minimumFrequency={min_freq} --maximumFrequency={max_freq}"
 
     p = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE)
     output = p.communicate()[0]

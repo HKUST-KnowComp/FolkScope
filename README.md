@@ -35,13 +35,14 @@ bash scripts/run_generation.sh
 ```
 
 ### 2. Classifier Training and Inference
-```
+```bash
 bash scripts/run_training.sh
 bash scripts/run_inference.sh
 ```
 
 ### 3. Knowledge Graph Construction
-```
+Kind reminder: please ensure that you have more than 100GB memory for pattern mining. Otherwise, please set a smaller `num_workers`
+```bash
 bash scripts/run_mining.sh
 bash scripts/run_match.sh
 bash scripts/run_conceptualization.sh
