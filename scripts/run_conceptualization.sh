@@ -13,7 +13,7 @@ mkdir -p $extraction_dir_name
 
 for relation in ${relations[@]}
 do
-    python src/pattern/pattern_match.py \
+    python src/pattern/conceptualizer.py \
         --data_file $extraction_dir_name"/"$relation"_"$data_file_suffix \
         --pattern_file $pattern_dir_name"/"$relation"-freq.txt" \
         --relation_type $relation \
