@@ -1,6 +1,6 @@
 # FolkScope
 
-Sourcecode and datasets for the paper "FolkScope: Intention Knowledge Graph Construction for Discovering E-commerce Commonsense" ([arXiv](https://arxiv.org/pdf/2211.08316.pdf))
+Sourcecode and datasets for the paper "FolkScope: Intention Knowledge Graph Construction for E-commerce Commonsense Discovery" ([[arXiv](https://arxiv.org/pdf/2211.08316.pdf)] [[Amazon Science](https://www.amazon.science/publications/folkscope-intention-knowledge-graph-construction-for-e-commerce-commonsense-discovery)])
 
 ![Overview](figure/folkscope.png)
 
@@ -53,11 +53,24 @@ bash scripts/run_conceptualization.sh
 Please kindly cite the following paper if you found our method and resources helpful!
 
 ```
-@article{yu2022folkscope,
-  title={FolkScope: Intention Knowledge Graph Construction for Discovering E-commerce Commonsense},
-  author={Yu, Changlong and Wang, Weiqi and Liu, Xin and Bai, Jiaxin and Song, Yangqiu and Li, Zheng and Gao, Yifan and Cao, Tianyu and Yin, Bing},
-  journal={arXiv preprint arXiv:2211.08316},
-  year={2022}
+@inproceedings{yu-etal-2023-folkscope,
+    title = "{F}olk{S}cope: Intention Knowledge Graph Construction for {E}-commerce Commonsense Discovery",
+    author = "Yu, Changlong  and
+      Wang, Weiqi  and
+      Liu, Xin  and
+      Bai, Jiaxin  and
+      Song, Yangqiu  and
+      Li, Zheng  and
+      Gao, Yifan  and
+      Cao, Tianyu  and
+      Yin, Bing",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.76",
+    pages = "1173--1191",
 }
 ```
 
