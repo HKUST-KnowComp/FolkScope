@@ -1,0 +1,78 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="58" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="th" />
+            <item index="7" class="java.lang.String" itemvalue="style" />
+            <item index="8" class="java.lang.String" itemvalue="crowd-checkbox" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="22">
+            <item index="0" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="1" class="java.lang.String" itemvalue="spacy" />
+            <item index="2" class="java.lang.String" itemvalue="elasticsearch" />
+            <item index="3" class="java.lang.String" itemvalue="seqeval" />
+            <item index="4" class="java.lang.String" itemvalue="tensorflow_datasets" />
+            <item index="5" class="java.lang.String" itemvalue="streamlit" />
+            <item index="6" class="java.lang.String" itemvalue="inflect" />
+            <item index="7" class="java.lang.String" itemvalue="rouge-score" />
+            <item index="8" class="java.lang.String" itemvalue="git-python" />
+            <item index="9" class="java.lang.String" itemvalue="sacrebleu" />
+            <item index="10" class="java.lang.String" itemvalue="conllu" />
+            <item index="11" class="java.lang.String" itemvalue="gradio" />
+            <item index="12" class="java.lang.String" itemvalue="torch" />
+            <item index="13" class="java.lang.String" itemvalue="transformers" />
+            <item index="14" class="java.lang.String" itemvalue="accelerate" />
+            <item index="15" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="16" class="java.lang.String" itemvalue="numpy" />
+            <item index="17" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="18" class="java.lang.String" itemvalue="wordfreq" />
+            <item index="19" class="java.lang.String" itemvalue="apex" />
+            <item index="20" class="java.lang.String" itemvalue="tqdm" />
+            <item index="21" class="java.lang.String" itemvalue="seaborn" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.write" />
+          <option value="torch.utils.data.dataloader.DataLoader.__getitem__" />
+          <option value="dict.values" />
+          <option value="object.append" />
+          <option value="str.replace" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
