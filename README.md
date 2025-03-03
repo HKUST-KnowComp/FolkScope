@@ -2,6 +2,10 @@
 
 Sourcecode and datasets for the paper "FolkScope: Intention Knowledge Graph Construction for E-commerce Commonsense Discovery" ([[arXiv](https://arxiv.org/pdf/2211.08316.pdf)] [[Amazon Science](https://www.amazon.science/publications/folkscope-intention-knowledge-graph-construction-for-e-commerce-commonsense-discovery)])
 
+### News
+
+Folkscope's extension work, [COSMO](https://dl.acm.org/doi/10.1145/3626246.3653398) has been published in the SIGMOD 2024 and we scale up the behavior type, product categories, and data annotation. [[Amazon Science Blog](https://www.amazon.science/blog/building-commonsense-knowledge-graphs-to-aid-product-recommendation)]
+
 ![Overview](figure/folkscope.png)
 
 ## Datasets
@@ -74,3 +78,20 @@ Please kindly cite the following paper if you found our method and resources hel
 }
 ```
 
+```
+@inproceedings{yu2024cosmo,
+    author = {Yu, Changlong and Liu, Xin and Maia, Jefferson and Li, Yang and Cao, Tianyu and Gao, Yifan and Song, Yangqiu and Goutam, Rahul and Zhang, Haiyang and Yin, Bing and Li, Zheng},
+    title = {COSMO: A Large-Scale E-commerce Common Sense Knowledge Generation and Serving System at Amazon},
+    year = {2024},
+    isbn = {9798400704222},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3626246.3653398},
+    doi = {10.1145/3626246.3653398},
+    booktitle = {Companion of the 2024 International Conference on Management of Data},
+    pages = {148–160},
+    numpages = {13},
+    location = {Santiago AA, Chile},
+    series = {SIGMOD/PODS '24}
+}
+```
